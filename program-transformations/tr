@@ -1,0 +1,5 @@
+#!/bin/bash
+
+./interp -t $1 <&0 >out.scm
+cat out.scm
+

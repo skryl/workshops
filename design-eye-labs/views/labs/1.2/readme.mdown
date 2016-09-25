@@ -1,0 +1,7 @@
+# Lab 1.2 Instructions
+
+1. Go to Google Font Directory / http://www.google.com/webfonts
+2. Choose a headline font
+3. Choose a body font
+4. Add <link>’s to <head> in _layout.erb
+5. Add styles to `/stylesheets/labs/1-2.scss` to use your fonts

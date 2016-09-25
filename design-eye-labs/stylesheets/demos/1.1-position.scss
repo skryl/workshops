@@ -1,0 +1,43 @@
+@import "compass";
+@import "compass/reset";
+
+html {
+  background: #f0f0f0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 960px;
+}
+
+#{headings()} {
+  font-weight: bold;
+}
+
+div {
+  border: solid 1px #333;
+  box-shadow: 2px 2px 2px #999;
+  display: block;
+  height: 300px;
+  padding: 5px;
+  width: 300px;
+}
+
+.parent {
+  margin: 1em;
+}
+
+.relative {
+  position: relative;
+}
+
+.child {
+  background-color: #333;
+  color: #ddd;
+  height: 100px;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 100px;
+}

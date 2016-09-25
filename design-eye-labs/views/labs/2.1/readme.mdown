@@ -1,0 +1,6 @@
+# Lab 2.1 Instructions
+
+1. Go to 960.gs
+2. Click grid generator
+3. Create a grid and download CSS
+4. Give your garden a grid

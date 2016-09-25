@@ -1,0 +1,36 @@
+@import "compass";
+@import "compass/reset";
+
+html {
+  background: #f0f0f0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 960px;
+}
+
+#{headings()} {
+  font-weight: bold;
+}
+
+div {
+  border: solid 1px #333;
+  box-shadow: 2px 2px 2px #999;
+  font-size: 20px;
+  height: auto;
+  line-height: 20px;
+  margin: 1em;
+  padding: 5px;
+  width: 200px;
+}
+
+div.inline {
+  display: inline;
+}
+
+div.inline-block {
+  display: inline-block;
+}
+

@@ -1,0 +1,5 @@
+# Lab 2.2 Instructions
+
+1. Add a 1px text shadow on headlines
+2. Add a box shadow on the sidebar (aside)
+3. Add 5px rounded corners on sidebar (aside)

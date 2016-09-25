@@ -1,0 +1,41 @@
+@import "compass";
+@import "compass/reset";
+
+// Everything below here can be SCSS or CSS :)
+// Here's a few lines of code to get you started.
+
+html {
+  background: #f0f0f0;
+}
+
+body {
+  margin: 0 auto;
+  padding: 30px 0;
+  width: 960px;
+}
+
+#{headings()} {
+  font-weight: bold;
+}
+
+[role="banner"] {}
+
+[role="main"] {
+  
+  article {
+    h1 {}
+    p {}
+  }
+
+  aside {
+    h2 {}
+    nav {}
+  }
+  
+}
+
+body > footer {
+  
+  p {}
+  
+}

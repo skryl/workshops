@@ -1,0 +1,6 @@
+Open:
+
+* `stylesheets/labs/4-1.sass`
+* `public/stylesheets/labs/4-1.css`
+
+Instead of running `serve`, run `compass watch`

@@ -1,0 +1,20 @@
+@import "compass";
+@import "compass/reset";
+
+html {
+  background: #f0f0f0;
+}
+
+body {
+  font-family: 'Quattrocento', serif;
+  margin: 1 auto;
+  padding: 30px 0;
+  width: 960px;
+}
+
+#{headings()} {
+  font-family: 'Life Savers', serif;
+  font-weight: bold;
+}
+
+// Everything below here can be SCSS or CSS :)

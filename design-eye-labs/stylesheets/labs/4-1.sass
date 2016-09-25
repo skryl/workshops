@@ -1,0 +1,59 @@
+@import compass
+
+@import compass/reset
+
+.border-radius
+  +border-radius(5px)
+
+.box-shadow
+  +box-shadow(rgba(#000,.45),10px,0,15px)
+
+.gradients
+  +background(linear-gradient(#ffd76f,#fcf5d9))
+
+.box-sizing.border-box
+  +box-sizing(border-box)
+
+.opacity
+  +opacity(.5)
+
+.transition
+  +transition-property(background)
+  +transition-duration(10s)
+  background: #e7e7e7
+  &:hover
+    background: #c7c7c7
+
+.adjust-lightness
+  background: adjust-lightness(#ce4dd6,10)
+
+.adjust-saturation
+  background: adjust-saturation(#ce4dd6,10)
+
+.reset-box-model
+  border: 10px solid #000
+  margin: 50px
+  padding: 50px
+  +reset-box-model
+
+.clearfix
+  +clearfix
+
+.pie-clearfix
+  +pie-clearfix
+
+.legacy-pie-clearfix
+  +legacy-pie-clearfix
+
+.replace-text
+  +replace-text("test.png", 0, 0)
+
+.float-left
+  +float-left
+
+.float-right
+  +float-right
+  
+.lists
+  ul
+    +no-bullets

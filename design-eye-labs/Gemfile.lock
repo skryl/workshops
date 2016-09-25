@@ -1,0 +1,45 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    activesupport (3.0.1)
+    chunky_png (1.2.0)
+    compass (0.11.4)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    configuration (1.2.0)
+    css_parser (1.1.9)
+    fssm (0.2.7)
+    heroku (1.20.1)
+      launchy (~> 0.3.2)
+      rest-client (>= 1.4.0, < 1.7.0)
+    i18n (0.4.2)
+    launchy (0.3.7)
+      configuration (>= 0.0.5)
+      rake (>= 0.8.1)
+    mime-types (1.16)
+    rack (1.2.1)
+    rack-test (0.6.1)
+      rack (>= 1.0)
+    rake (0.8.7)
+    rest-client (1.6.1)
+      mime-types (>= 1.16)
+    sass (3.1.1)
+    serve (1.5.1)
+      activesupport (~> 3.0)
+      i18n
+      rack (~> 1.2)
+      rack-test (~> 0.5)
+      tilt (~> 1.3)
+      tzinfo
+    tilt (1.3.2)
+    tzinfo (0.3.23)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  css_parser
+  heroku
+  serve (= 1.5.1)
