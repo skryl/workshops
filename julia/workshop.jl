@@ -26,11 +26,11 @@ typeof(1:5)
 (1:5).start
 
 for x=1:5
-    println(x)
+  println(x)
 end
 
 for x=1:2:10
-    println
+  println(x)
 end
 
 names(1:2:10)
@@ -64,9 +64,9 @@ super(ans)   # -> Any
 subtypes(Signed)
 
 type Lion
-    canroar
-    taillength::Float64
-    coatcolor
+  canroar
+  taillength::Float64
+  coatcolor
 end
 
 typeof(Lion) # -> DataType
@@ -76,12 +76,12 @@ l = Lion(true, 5.0,"green")
 l.coatcolor
 
 type Cat
-    canmeow
+  canmeow
 end
 
 type Tiger <: Cat
-    numberofstripes::Int
-    favoritefood
+  numberofstripes::Int
+  favoritefood
 end
 
 super(Tiger)  # -> Cat
